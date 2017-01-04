@@ -1,0 +1,89 @@
+.Home {
+  width: 100vw;
+}
+
+.ColumnContainer {
+  display: flex;
+  width: 100%;
+}
+
+.Column {
+  width: 25%;
+  height: 100vh;
+}
+
+.ColumnOne {
+  background-color: #BD2705;
+}
+
+.ColumnTwo {
+  background-color: #A9E5BB;
+}
+
+.ColumnThree {
+  background-color: #2D1E2F;
+}
+
+.ColumnFour {
+  background-color: #F7B32B;
+}
+
+.Column p {
+  font-family: 'Passion One', cursive;
+  color: #FFFFFF;
+  font-size: 54vw;
+  line-height: 30%;
+}
+
+.LetterD {
+  margin-top: 60%;
+}
+
+.LetterA {
+  margin-top: 90%;
+  padding-left: 40px;
+}
+
+.LetterL {
+  margin-top: 100%;
+  padding-left: 25px;
+  transform: rotate(-15deg);
+}
+
+.LetterI {
+  margin-top: 60%;
+}
+
+/*.Dot {
+  position: absolute;
+  border-radius: 50%;
+  width: 8%;
+  height: auto;
+  padding-top: 8%;
+  background-color: white;
+  margin-left: 40px;
+  margin-top: 3%;
+  transition: margin-top .5s ease;
+}
+
+.ColumnFour:hover .Dot {
+  margin-top: 6%;
+  background-color: #F7B32B;
+}*/
+
+.ColumnFour:hover .LetterI {
+  background-color: #F7B32B;
+}
+
+.ColumnFour:hover {
+  background-color: white;
+}
+
+/*.Letter-I {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 35px;
+  width: 9vw;
+  height: 50%;
+  background-color: white;
+}*/

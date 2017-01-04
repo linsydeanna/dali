@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+}
+
+.AlbumList {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.Album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.AlbumView {
+  display: flex;
+}
+
+.AlbumDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #FFFFFF;
+}
